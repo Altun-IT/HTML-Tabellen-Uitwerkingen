@@ -1,0 +1,64 @@
+/* styles.css */
+body {
+    font-family: 'Georgia', serif; /* Klassiek lettertype voor een professionele uitstraling */
+    background-color: #f8f4f1; /* Zachte crèmekleurige achtergrond voor een rustgevend effect */
+    color: #333; /* Donkergrijze tekstkleur voor goede leesbaarheid */
+    display: flex; /* Gebruikt flexbox om de inhoud te centreren */
+    justify-content: center; /* Centreert inhoud horizontaal */
+    align-items: center; /* Centreert inhoud verticaal */
+    min-height: 100vh; /* Zorgt ervoor dat de inhoud de volledige schermhoogte inneemt */
+    margin: 0; /* Verwijdert standaard marges voor een strakke lay-out */
+}
+
+.menu-container {
+    width: 60%; /* Maakt de container 60% van de breedte van het scherm */
+    padding: 40px; /* Ruimte rond de inhoud voor een luchtigere opmaak */
+    background-color: #ffffff; /* Witte achtergrond voor helder contrast */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtiele schaduw voor een zwevend effect */
+    border-radius: 8px; /* Licht afgeronde hoeken voor een zachtere uitstraling */
+    text-align: center; /* Centreert de tekst in de container */
+}
+
+h2 {
+    font-size: 1.8em; /* Vergroot de koptekst om deze opvallend te maken */
+    color: #555; /* Donkergrijze kleur voor een elegante stijl */
+    letter-spacing: 2px; /* Extra ruimte tussen letters voor een formele uitstraling */
+    margin-bottom: 20px; /* Ruimte onder de koptekst om het visueel te scheiden van de tabel */
+}
+
+table {
+    width: 100%; /* Maakt de tabel net zo breed als de container */
+    border-collapse: collapse; /* Verwijdert de ruimte tussen de randen van cellen */
+    margin: 20px 0; /* Ruimte boven en onder de tabel */
+    font-size: 16px; /* Zorgt voor een goed leesbare tekstgrootte */
+}
+
+table th, table td {
+    padding: 12px; /* Ruimte in de cellen voor betere leesbaarheid */
+    text-align: left; /* Lijnt tekst links uit in de cellen */
+    font-weight: normal; /* Houdt de cellen normaal van gewicht tenzij anders aangegeven */
+    color: #555; /* Donkergrijze tekst voor consistentie met de kop */
+}
+
+table th {
+    font-weight: bold; /* Vetgedrukte kopteksten voor betere zichtbaarheid */
+    border-bottom: 2px solid #ddd; /* Dikkere onderlijn onder koppen voor visuele scheiding */
+    text-transform: uppercase; /* Hoofdletters in de koppen voor een strakke look */
+}
+
+table td {
+    border-bottom: 1px solid #eee; /* Dunne onderlijn onder gegevenscellen voor netheid */
+}
+
+table tr:last-child td {
+    border-bottom: none; /* Verwijdert de onderlijn van de laatste rij */
+}
+
+table td:last-child, table th:last-child {
+    text-align: right; /* Lijnt de laatste kolom rechts uit voor prijsinformatie */
+}
+
+table tr:hover td {
+    background-color: #f9f9f9; /* Lichte achtergrondverandering bij hover voor interactie */
+}
+
